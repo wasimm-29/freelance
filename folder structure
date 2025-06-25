@@ -1,0 +1,24 @@
+freelancer-connect/
+│
+├── server.js
+├── package.json
+├── /routes
+│   ├── auth.js
+│   ├── freelancer.js
+│   └── client.js
+│
+├── /models
+│   ├── User.js
+│   ├── Project.js
+│
+├── /views
+│   ├── index.html
+│   ├── register.html
+│   ├── login.html
+│   ├── dashboard.html
+│
+├── /public
+│   ├── /css
+│   ├── /js
+│
+└── .env

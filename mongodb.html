@@ -1,0 +1,9 @@
+const mongoose = require('mongoose');
+const userSchema = new mongoose.Schema({
+  username: String,
+  password: String,
+  role: { type: String, enum: ['client', 'freelancer'] },
+  skills: [String],
+  bio: String
+});
+module.exports = mongoose.model('User', userSchema);
